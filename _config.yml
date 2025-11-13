@@ -1,25 +1,25 @@
-title: Your Name
-description: Thinker • Developer • Creator
+title: Shreeya
+description: Researcher in Algorithms and Machine Learning
 author: Shreeya
 remote_theme: daattali/beautiful-jekyll
 
-# Your social links
+# Socials
 social-network-links:
-  github: shreeyaac
-  linkedin: shreeyac
-  twitter: not available
   email: shreeyac@iitb.ac.in
+  github: shreeyaac
+  
+  linkedin: shreeyac
+  twitter: not yet
 
-# Navbar
+# Navbar — we'll keep only minimal links; sidebar handles main nav
 navbar-links:
-  About: "about"
-  Projects: "#projects"
-  Contact: "#contact"
-  GitHub: "https://github.com/shreeyaac"
+  Home: "/"
+  Courses: "courses"
+  Projects: "projects"
+  Research Stuff: "research"
+  CV: "cv"
 
-# Tell theme to keep its layout; we'll override visuals via our CSS
 plugins:
   - jekyll-feed
 
-# Optional: enable / tweak other settings
 markdown: kramdown
