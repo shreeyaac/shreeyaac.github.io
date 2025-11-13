@@ -1,4 +1,3 @@
-# shreeyaac.github.io
 ---
 layout: page
 title: About Me
