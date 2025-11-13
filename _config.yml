@@ -1,5 +1,25 @@
-title: Shreeya C.
-email: shreeyac@iitb.ac.in
+title: Your Name
+description: Thinker • Developer • Creator
+author: Shreeya
 remote_theme: daattali/beautiful-jekyll
+
+# Your social links
+social-network-links:
+  github: shreeyaac
+  linkedin: shreeyac
+  twitter: not available
+  email: shreeyac@iitb.ac.in
+
+# Navbar
+navbar-links:
+  About: "about"
+  Projects: "#projects"
+  Contact: "#contact"
+  GitHub: "https://github.com/shreeyaac"
+
+# Tell theme to keep its layout; we'll override visuals via our CSS
 plugins:
   - jekyll-feed
+
+# Optional: enable / tweak other settings
+markdown: kramdown
