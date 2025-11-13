@@ -1,0 +1,5 @@
+title: Shreeya C.
+email: shreeyac@iitb.ac.in
+remote_theme: daattali/beautiful-jekyll
+plugins:
+  - jekyll-feed
