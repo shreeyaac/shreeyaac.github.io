@@ -12,7 +12,7 @@ A list of courses I’ve taken and notable assignments/projects.
 
 ## Relevant courses
 - Algorithms (CS XXX) — implementations & proofs; project: graph streaming.
-- Machine Learning (CS YYY) — model building, evaluation; project: tabular ML pipeline.
+- Machine Learning (CS 791) — Probabilistic approach to AI
 - Data Structures & Systems — implementations in C++.
 
 ## Notable assignments / demos
