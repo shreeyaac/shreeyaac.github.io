@@ -1,0 +1,51 @@
+/* prof.css — academic, minimal, left-sidebar layout */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+
+:root{
+  --bg:#fbfcfd;
+  --panel:#ffffff;
+  --muted:#6b7280;
+  --accent:#0b63d6;
+  --text:#0b1220;
+  --sidebar-w:260px;
+  --gap:28px;
+}
+
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial;background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Layout */
+.container{max-width:1100px;margin:40px auto;display:grid;grid-template-columns:var(--sidebar-w) 1fr;gap:var(--gap);align-items:start;padding:0 20px}
+.sidebar{background:var(--panel);padding:22px;border-radius:12px;border:1px solid rgba(11,19,34,0.04);height:fit-content;position:sticky;top:20px}
+.main{background:transparent;padding:8px}
+
+/* Sidebar content */
+.profile-photo{width:100%;border-radius:8px;display:block;margin-bottom:14px}
+.name{font-size:1.15rem;font-weight:600;margin:6px 0}
+.title{font-size:0.95rem;color:var(--muted);margin-bottom:12px}
+.meta{font-size:0.9rem;color:var(--muted);line-height:1.5}
+.social-list{margin-top:12px;display:flex;flex-wrap:wrap;gap:8px}
+.social-list a{font-size:0.9rem;padding:6px 8px;border-radius:8px;background:rgba(11,99,214,0.06);color:var(--accent)}
+
+/* Sections */
+.section{background:var(--panel);padding:18px;border-radius:12px;border:1px solid rgba(11,19,34,0.04);margin-bottom:18px}
+.section h2{margin:0 0 10px;font-size:1.05rem}
+.lead{color:var(--muted);margin-bottom:8px}
+
+/* Publication list */
+.pub-list{list-style:none;padding:0;margin:0}
+.pub-item{padding:10px 0;border-bottom:1px solid rgba(11,19,34,0.03)}
+.pub-item:last-child{border-bottom:0}
+.pub-meta{color:var(--muted);font-size:0.92rem;margin-top:6px}
+.pub-links a{margin-right:10px;font-weight:600;font-size:0.9rem;color:var(--accent)}
+
+/* CV button */
+.cv-btn{display:inline-block;padding:8px 12px;border-radius:8px;background:var(--accent);color:white;font-weight:600;text-decoration:none}
+
+/* Responsive */
+@media (max-width:880px){
+  .container{grid-template-columns:1fr; padding:0 14px}
+  .sidebar{position:relative;top:auto;margin-bottom:14px}
+}
